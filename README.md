@@ -1,5 +1,5 @@
 </>
-1	HELLO	Hello World	Bài tập tổng hợp	Vào ra đơn giản	1
+1	HELLO	Hello World	Bài tập tổng hợp	Vào ra đơn giản	1 /n
 </>
 2	LCMGCD1	LCM & GCD 1	Bài tập tổng hợp	Số học (cơ bản)	1
 </>
