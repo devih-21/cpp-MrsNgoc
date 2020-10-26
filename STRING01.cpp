@@ -8,7 +8,10 @@
 using namespace std;
 
 int main(){
-    str stringMain, stringChildren;
+    int testCase;
+    cin >> testCase;
+    while(testCase--){
+        str stringMain, stringChildren;
     vector <str> vectorStringChildren;
 
 
@@ -26,7 +29,10 @@ int main(){
         if(vectorStringChildren[index] != stringChildren){
             cout << vectorStringChildren[index] << " ";
         }
-        // cout << stringChildren;
+    }
+    
+    
+        cout << endl;
     }
 
 }

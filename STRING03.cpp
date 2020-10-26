@@ -49,4 +49,5 @@ int main(){
 
     newName += vectorStringChildren[vectorStringChildren.size() - 1];
     cout << newName;
+    
 }

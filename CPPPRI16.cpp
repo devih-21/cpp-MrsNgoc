@@ -17,22 +17,16 @@ bool isPrime(long number){
 int main(){
     long testCase;
     cin >> testCase;
-    int arrPrime[10000];
-    arrPrime[0] = 1;
-    for(int index = 2; index <= 10000; index++){
-            for(int j = 2; index <= index; j++){
-              if(isPrime(j) && index % j == 0){
-                arrPrime[index - 1] = j;
-                break;
-              }
-          }
-        }
+    
     while(testCase--){
         long numberTest;
         cin >> numberTest;
-        for(int index = 0; index < numberTest; index++){
-          cout << arrPrime[index] << " ";
+        int count = 0;
+        for(long index = 0; index <= sqrt(numberTest);index++){
+            if(isPrime(index)){
+                count++;
+            }
         }
-        cout << endl;
+        cout << count << endl;
     }
 }
