@@ -1,80 +1,51 @@
-</>
-1	HELLO	Hello World	Bài tập tổng hợp	Vào ra đơn giản	1 
-</>
-2	LCMGCD1	LCM & GCD 1	Bài tập tổng hợp	Số học (cơ bản)	1
-</>
-3	LCMGCD2	LCM & GCD 2	Bài tập tổng hợp	Số học (cơ bản)	1
-</>
-4	CPPPRI01	PRIME 1	Bài tập tổng hợp	Số học (cơ bản)	1
-</>
-5	CPPPRI02	PRIME 2	Bài tập tổng hợp	Số học (cơ bản)	1
-</>
-6	CPPPRI03	PRIME 3	Bài tập tổng hợp	Số học (cơ bản)	1
-</>
-7	CPPPRI09	PRIME 9	Bài tập tổng hợp	Số học (cơ bản)	1
-</>
-8	CPPPRI12	PRIME 12	Bài tập tổng hợp	Số học (cơ bản)	1
-</>
-9	CPPPRI14	PRIME 14	Bài tập tổng hợp	Số học (cơ bản)	1
-</>
-10	CPPLAN01	Large Number 1	Bài tập tổng hợp	Kiểu dữ liệu và Phép toán	1
-</>
-11	CPPLAN02	Large Number 2	Bài tập tổng hợp	Kiểu dữ liệu và Phép toán	1
-</>
-12	STRING01	Loại bỏ xâu con	Bài tập tổng hợp	Xâu ký tự	1
-</>
-13	STRING02	Địa chỉ email PTIT	Bài tập tổng hợp	Xâu ký tự	1
-</>
-14	STRING03	Chuẩn hóa tên	Bài tập tổng hợp	Xâu ký tự	1
-</>
-15	PRIME19	Tìm số nguyên tố trong khoảng	Bài tập tổng hợp	Số học (cơ bản)	1
-</>
-16	CPPMOD01	MODULO 1	Bài tập tổng hợp	Số học (cơ bản)	1
-</>
-17	CPPMOD02	MODULO 2	Bài tập tổng hợp	Số học (cơ bản)	1
-</>
-18	CPPMOD03	MODULO 3	Bài tập tổng hợp	Số học (cơ bản)	1
-</>
-19	CPPMOD04	MODULO 4	Bài tập tổng hợp	Số học (cơ bản)	1
-</>
-20	CPPFIB01	FIBONACCI 1	Bài tập tổng hợp	Số học (cơ bản)	1
-</>
-21	CPPCOM01	COMINATION 1	Bài tập tổng hợp	Số học (cơ bản)	1
-</>
-22	CPPREA01	Re-arrang Array 1	Bài tập tổng hợp	Mảng một chiều	1
-</>
-23	CPPREA02	Re-arrang Array 2	Bài tập tổng hợp	Mảng một chiều	1
-</>
-24	CPPREA14	Re-arrang Array 14	Bài tập tổng hợp	Mảng một chiều	1
-</>
-25	CPPORD01	Order Statistics 1	Bài tập tổng hợp	Mảng một chiều	1
-</>
-26	CPPORD02	Order Statistics 2	Bài tập tổng hợp	Mảng một chiều	1
-</>
-27	CPPORD08	Order Statistics 8	Bài tập tổng hợp	Mảng một chiều	1
-</>
-28	CPPORD12	Order Statistics 12	Bài tập tổng hợp	Mảng một chiều	1
-</>
-29	CPPRAN01	Range Query 1	Bài tập tổng hợp	Mảng một chiều	1
-</>
-30	CPPRAN11	Range Query 11	Bài tập tổng hợp	Vào ra đơn giản	1
-</>
-31	CPPRAN12	Range Query 12	Bài tập tổng hợp	Mảng một chiều	1
-</>
-32	CPPSORT01	Sorting 1	Bài tập tổng hợp	Mảng một chiều	1
-</>
-33	CPPSORT06	Sorting 6	Bài tập tổng hợp	Mảng một chiều	1
-</>
-34	CPPSORT09	Sorting 9	Bài tập tổng hợp	Mảng một chiều	1
-</>
-35	CPPSORT12	Sorting 12	Bài tập tổng hợp	Mảng một chiều	1
-</>
-36	CPPSORT13	Sorting 13	Bài tập tổng hợp	Mảng một chiều	1
-</>
-37	CPPSORT14	Sorting 14	Bài tập tổng hợp	Mảng một chiều	1
-</>
-38	CPPSEA01	Searching 1	Bài tập tổng hợp	Mảng một chiều	1
-</>
-39	CPPSEA02	Searching 2	Bài tập tổng hợp	Mảng một chiều	1
-</>
-40	CPPSEA03	Searching 3	Bài tập tổng hợp	Mảng một chiều	1
+1	HELLO	Hello World	4	AC</br>
+2	CPPPRI01	PRIME 1	14	AC</br>
+3	LCMGCD1	LCM & GCD 1	4	AC</br>
+4	LCMGCD2	LCM & GCD 2	7	AC</br>
+5	PRIME19	Tìm số nguyên tố trong khoảng	11	AC</br>
+6	CPPPRI03	PRIME 3	1	AC</br>
+7	STRING02	Địa chỉ email PTIT	1	AC</br>
+8	CPPORD01	Order Statistics 1	2	AC</br>
+9	CPPORD02	Order Statistics 2	1	AC</br>
+10	CPPORD08	Order Statistics 8	1	AC</br>
+11	CPPPRI02	PRIME 2	3	AC</br></br>
+12	STRING03	Chuẩn hóa tên	1	AC</br>
+13	CPPPRI09	PRIME 9	1	AC</br>
+14	CPPPRI12	PRIME 12	3	AC</br>
+15	CPPSORT01	Sorting 1	3	AC</br>
+16	CPPSORT06	Sorting 6	2	AC</br>
+17	CPPSORT09	Sorting 9	2	AC</br>
+18	CPPSORT12	Sorting 12	5	AC</br>
+19	CPPSORT13	Sorting 13	1	AC</br>
+20	CPPSORT14	Sorting 14	2	AC</br>
+21	CPPFIB01	FIBONAC</br>CI 1	2	AC</br>
+22	CPPMOD01	MODULO 1	8	AC</br>
+23	CPPMOD02	MODULO 2	2	AC</br>
+24	CPPMOD03	MODULO 3	5	AC</br>
+25	CPPMOD04	MODULO 4	1	AC</br>
+26	CPPPRI14	PRIME 14	1	AC</br>
+27	CPPREA02	Re-arrang Array 2	1	AC</br>
+28	CPPREA14	Re-arrang Array 14	1	AC</br>
+29	CPPSEA01	Searching 1	1	AC</br>
+30	CPPSEA02	Searching 2	1	AC</br>
+31	CPPSEA03	Searching 3	2	AC</br>
+32	CPPORD12	Order Statistics 12	13	AC</br>
+33	CPPREA01	Re-arrang Array 1	1	AC</br>
+34	CPPRAN01	Range Query 1	1	AC</br>
+35	CPPRAN11	Range Query 11	1	AC</br>
+36	STRING01	Loại bỏ xâu con	1	AC</br>
+37	CPPLAN02	Large Number 2	3	WA</br>
+38	CPPLAN01	Large Number 1	1	WA</br>
+39	CPPPRI04	PRIME 4	4	AC</br>
+40	CPPPRI05	PRIME 5	1	AC</br>
+41	CPPPRI06	PRIME 6	2	AC</br>
+42	CPPPRI07	PRIME 7	1	AC</br>
+43	CPPPRI15	PRIME 15	1	AC</br>
+44	CPPPRI16	PRIME 16	1	AC</br>
+45	CPPPRI18	PRIME 18	1	AC</br>
+46	LCMGCD5	LCM & GCD 5	1	AC</br>
+47	LCMGCD7	LCM & GCD 7	8	AC</br>
+48	CPPMOD05	MODULO 5	8	WA</br>
+49	LCMGCD3	LCM & GCD 3	1	AC</br>
+50	CPPPRI17	PRIME 17	1	AC</br>
+51	LCMGCD4	LCM & GCD 4	1	AC</br>
