@@ -6,7 +6,7 @@
 
 using namespace std; 
   
-int mod(string num, long long a) { 
+int mod(string num, llInt a) { 
     llInt res = 0; 
     for (int i = 0; i < num.length(); i++) {
          res = (res*10 + (int)num[i] - '0') % a;
@@ -18,11 +18,9 @@ int main()
     int testCase;
     cin >> testCase;
     while(testCase--){
-        cin.ignore();
         string strNum;
-        long number;
-        getline(cin, strNum);
-        cin >> number;
+        llInt number;
+        cin >> strNum >> number;
         long long number2 = mod(strNum, number);
         cout << number2 << endl;
     }
