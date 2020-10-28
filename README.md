@@ -8,7 +8,7 @@
 8	CPPORD01	Order Statistics 1	2	AC</br>
 9	CPPORD02	Order Statistics 2	1	AC</br>
 10	CPPORD08	Order Statistics 8	1	AC</br>
-11	CPPPRI02	PRIME 2	3	AC</br></br>
+11	CPPPRI02	PRIME 2	3	AC</br>
 12	STRING03	Chuẩn hóa tên	1	AC</br>
 13	CPPPRI09	PRIME 9	1	AC</br>
 14	CPPPRI12	PRIME 12	3	AC</br>
