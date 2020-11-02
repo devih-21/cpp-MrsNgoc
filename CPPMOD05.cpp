@@ -6,7 +6,7 @@
 
 using namespace std; 
   
-int mod(string num, llInt a) { 
+llInt mod(string num, llInt a) { 
     llInt res = 0; 
     for (int i = 0; i < num.length(); i++) {
          res = (res*10 + (int)num[i] - '0') % a;
@@ -24,4 +24,4 @@ int main()
         long long number2 = mod(strNum, number);
         cout << number2 << endl;
     }
-} 
+}

@@ -1,89 +1,63 @@
-// #include <iostream>
-#include <algorithm>
-#include <string>
-
-#define str string
-
-using namespace std;
-
-
-str sumBigNum(str numFirst, str numSecond){
-    if(numFirst.length() < numSecond.length()){
-        swap(numFirst, numSecond);
+#include<bits/stdc++.h> 
+using namespace std; 
+  
+// Function for finding sum of larger numbers 
+string findSum(string str1, string str2) 
+{ 
+    // Before proceeding further, make sure length 
+    // of str2 is larger. 
+    if (str1.length() > str2.length()) 
+        swap(str1, str2); 
+  
+    // Take an empty string for storing result 
+    string str = ""; 
+  
+    // Calculate length of both string 
+    int n1 = str1.length(), n2 = str2.length(); 
+  
+    // Reverse both of strings 
+    reverse(str1.begin(), str1.end()); 
+    reverse(str2.begin(), str2.end()); 
+  
+    int carry = 0; 
+    for (int i=0; i<n1; i++) 
+    { 
+        // Do school mathematics, compute sum of 
+        // current digits and carry 
+        int sum = ((str1[i]-'0')+(str2[i]-'0')+carry); 
+        str.push_back(sum%10 + '0'); 
+  
+        // Calculate carry for next step 
+        carry = sum/10; 
     } 
-    
-    while (numFirst.length() != numSecond.length()){
-        numSecond = "0" + numSecond;
-    }
-
-    // cout << numFirst << " " << numSecond;
-
-    int extra = 0;
-
-    str sumTwoNum = ""; 
-    for(int index = 0; index < numFirst.length(); index++){
-        int sumTemp = ( (int) numFirst[numFirst.length() - 1 - index] - 48) +  ( (int) numSecond[numFirst.length() - 1 - index] - 48 ) + extra;
-        // cout <<( (int) numFirst[numFirst.length() - 1 - index] - 48) +  ( (int) numSecond[numFirst.length() - 1 - index] - 48 )<< " ";
-        
-        if(sumTemp > 9){
-            extra = 1;
-            sumTemp %= 10;
-            sumTwoNum += (char) sumTemp + 48;
-        } else {
-            extra = 0;
-            sumTwoNum += (char) sumTemp + 48;
-        }
-    }
-
-    if(extra == 1){
-        sumTwoNum += "1";
-
+  
+    // Add remaining digits of larger number 
+    for (int i=n1; i<n2; i++) 
+    { 
+        int sum = ((str2[i]-'0')+carry); 
+        str.push_back(sum%10 + '0'); 
+        carry = sum/10; 
     } 
-
-    str newSumTwoNum = "";
-    str newFinalSumTwoNum = "";
-
-    for(int index = 0; index < sumTwoNum.length(); index++){
-        newSumTwoNum += sumTwoNum[sumTwoNum.length() - index - 1];
-    }
-
-    int check = 0;
-    bool fix = false;
-
-    for(int index = 0; index < sumTwoNum.length(); index++){
-        if(newSumTwoNum[index] == '0'){
-            check++;
-            fix = true;
-        } else {
-            break;
-        }
-    }
-    for(int index = check; index < sumTwoNum.length(); index++){
-        newFinalSumTwoNum += newSumTwoNum[index];
-       
-    }
-    if(newFinalSumTwoNum.length() == 0){
-        return "0";
-    }
-
-    return newFinalSumTwoNum;
-
-
-    
- 
-    
-}
-
-int main(){
+  
+    // Add remaining carry 
+    if (carry) 
+        str.push_back(carry+'0'); 
+  
+    // reverse resultant string 
+    reverse(str.begin(), str.end()); 
+  
+    return str; 
+} 
+  
+// Driver code 
+int main() 
+{ 
     int testCase;
     cin >> testCase;
-    cin.ignore();
-
     while(testCase--){
-        str numFirst, numSecond;
-        getline(cin, numFirst);
-        getline(cin, numSecond);
+        string firstNum, secondNum;
+        cin >> firstNum >> secondNum;
+        cout << findSum(firstNum, secondNum) << endl;
 
-        cout << sumBigNum(numFirst, numSecond) << endl;
     }
-}
+} 
