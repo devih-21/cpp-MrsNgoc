@@ -47,7 +47,7 @@ int main(){
             result *= hx;
             result %= module;
         }
-
+    
         cout << result << endl;
     }
 }
